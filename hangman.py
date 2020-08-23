@@ -17,7 +17,7 @@ def hangman():
 
         if main==word:
             print(main)
-            print("Congratulations,You won the game")
+            print("Congratulations,You won the game!!")
             break
 
         guess=print("Guess the word:",main)
@@ -98,5 +98,6 @@ for i in range(6):
     print("*", end=" ")
     time.sleep(0.5)
 print()
-print(f"Welcome to the game {name} .Best of luck buddy")
+print(f"Welcome to the game {name} .Best of luck buddy!!")
+print("---------------------------------------------------------------------------------------")
 hangman()
